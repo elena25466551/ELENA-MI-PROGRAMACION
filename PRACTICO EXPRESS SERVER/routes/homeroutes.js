@@ -1,4 +1,4 @@
-const router=require("express").Router();
+const router=require("express").Router();//creo una variable y requiero el router de la libreria express (para armar las rutas)
 const {getHome, postHome,putHome, deleteHome} = require("../controller/controller")
 //funcion get hace solicitud muestra "/" ruta de acceso,req pedir res responder mostrar
 router.get("/", getHome)
